@@ -1,0 +1,81 @@
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+0,bce0ee+100 */
+    background: #b3dced; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 0%, #bce0ee 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 0%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 0%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+      margin: 25px;
+  }
+  
+  .container {
+    height: 100vh;
+  }
+  
+  input {
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  li {
+    list-style: none;
+    margin-left: -40px; 
+  }
+  
+  input:hover {
+    transition: all 0.2s ease-in-out;
+    border: 3px solid #0078c9;
+  }
+  
+  input:focus {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.07);
+  }
+  
+  #addBut {
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 175px;
+    border: 3px solid lightblue;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,70ddff+53,bce0ee+100 */
+background: #b3dced; /* Old browsers */
+background: -moz-linear-gradient(top,  #b3dced 0%, #70ddff 53%, #bce0ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b3dced 0%,#70ddff 53%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b3dced 0%,#70ddff 53%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+  }
+  
+  #addBut:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.07);
+  }
+
+  .remove {
+      margin-left: 20px;
+      border: 3px solid lightblue;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,70ddff+53,bce0ee+100 */
+background: #b3dced; /* Old browsers */
+background: -moz-linear-gradient(top,  #b3dced 0%, #70ddff 53%, #bce0ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b3dced 0%,#70ddff 53%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b3dced 0%,#70ddff 53%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+  }
+  
+  /*Classes to be applied*/
+  
+  .done {
+      text-decoration: line-through;
+  }
+  
+  
